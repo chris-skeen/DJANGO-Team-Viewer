@@ -1,0 +1,12 @@
+{% load static%}
+<head>
+  <title>BCCA Team Viewer!</title>
+  <link rel="stylesheet" href="{%static "style.css" %}">
+</head>
+
+<body>
+  <h1 class="main-title">BCCA Class of 2025 <a class="teams-link" href="{% url "root" %}">Teams</a></h1>
+  {% block content %}
+  
+  {% endblock content %}
+</body>

@@ -1,0 +1,53 @@
+body {
+  background-color: lightskyblue;
+}
+
+.main-title {
+  color: white;
+  text-align: center;
+}
+
+.lesser-titles {
+  text-align: center;
+  margin-top: 10%;
+  color:grey
+}
+
+.all-links {
+  color: darkblue
+}
+
+.mini-div {
+  width: 50%;
+  height: 30vh;
+  text-align: center;
+  background-color: lightblue;
+}
+
+.main-div {
+  display: flex;
+  justify-content: center;
+}
+
+.team-names {
+  color: white
+}
+
+.summary-text {
+  color:cadetblue;
+  font-size: 15pt;
+}
+.teams-link:link{
+  color: blue;
+  text-decoration: none;
+}
+
+.teams-link:visited {
+  color: blue;
+  text-decoration: none;
+}
+
+.teams-link:hover {
+  color: white;
+  text-decoration: underline;
+}

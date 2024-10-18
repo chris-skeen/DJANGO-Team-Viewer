@@ -1,0 +1,17 @@
+{% extends "home.html" %}
+
+{% block content%}
+<h1 class="lesser-titles">{{name}}</h1>
+<div class="main-div">
+  <div class="mini-div">
+    <h3 class="team-names">
+    {% for member in members%}
+      {{member}},
+    {% endfor %}
+    </h3>
+    <p class="summary-text">
+      {{desc}}
+    </p>
+  </div>
+</div>
+{% endblock content%}
