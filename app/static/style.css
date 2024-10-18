@@ -7,15 +7,34 @@ body {
   text-align: center;
 }
 
+.name-title {
+  text-align: center;
+  color:grey
+}
 .lesser-titles {
   text-align: center;
-  margin-top: 10%;
+  margin-top: 9%;
   color:grey
 }
 
 .all-links {
-  color: darkblue
+  color: white
 }
+
+.all-links:link {
+  color: white
+}
+
+.all-links:hover {
+  color: white
+}
+
+.all-links:visited {
+  color: white
+}
+
+
+
 
 .mini-div {
   width: 50%;
@@ -38,12 +57,12 @@ body {
   font-size: 15pt;
 }
 .teams-link:link{
-  color: blue;
+  color: grey;
   text-decoration: none;
 }
 
 .teams-link:visited {
-  color: blue;
+  color: grey;
   text-decoration: none;
 }
 
